@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-//import './App.css';
+import './App.css';
 
 class App extends Component {
   constructor(props) {
@@ -13,8 +13,10 @@ class App extends Component {
   render(){
     return (
       <div className="App">
-        <input type="text"></input>
-        <button>Add Task</button>
+        <div className="inputDiv">
+          <input type="text" className="input"></input>
+          <button className="button">Add Task</button>
+        </div>
         <h2>Tasks</h2>
       </div>
     );
