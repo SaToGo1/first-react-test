@@ -1,0 +1,15 @@
+.taskList {
+
+}
+
+.taskCard {
+    width: 300px;
+    min-height: 40px;
+    background-color: var(--color-base-2);
+    border: 1px solid var(--color-2);
+    margin-bottom: 10px;
+}
+
+.task {
+    overflow-wrap: break-word;
+}
