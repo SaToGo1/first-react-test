@@ -5,7 +5,7 @@ import Overview from './components/Overview';
 class App extends Component {
   constructor(props) {
     super(props)
-
+    
     this.state = {
       taskArray: []
     }
@@ -29,7 +29,7 @@ class App extends Component {
           <button className="button" onClick={this.clickAddTask}>Add Task</button>
         </div>
         <h2>Tasks</h2>
-        <Overview tasks = {this.taskArray} />
+        <Overview taskArray = {this.state.taskArray} />
       </div>
     );
   }
